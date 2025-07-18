@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satyam Kumar Jha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo blink">SKJ Portfolio</div>
+    <nav class="nav-menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Welcome Section -->
+<section id="hero" class="hero-section">
+  <h1>Hey, I'm <span class="typewrite" data-text='["Satya", "Frontend Developer", "UI/UX Enthusiast", "Coder & Designer"]'></span></h1>
+  <p>I build clean, modern, responsive websites with love for design & function.</p>
+  <a href="#about" class="liquid-btn">Explore More</a>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hey! I'm Satyam Kumar Jha, a frontend developer and BCA student. I build responsive, clean UI using HTML, CSS, JS. I'm passionate about design, UI/UX, and love making things that live on the web.</p>
+      <div class="btns">
+        <a href="assets/resume.pdf" class="liquid-btn" download>Download Resume</a>
+        <a href="#contact" class="liquid-btn">Contact</a>
+      </div>
+    </div>
+    <div class="about-img-container">
+      <img src="assest/me.jpg" alt="Satyam" class="about-img" />
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <h2>Skills</h2>
+    <dev class="skills-grid">
+      <div class="skill-card" data-front="HTML" data-back="HyperText Markup"></div>
+      <div class="skill-card" data-front="CSS" data-back="Cascading Style Sheets"></div>
+      <div class="skill-card" data-front="JavaScript" data-back="JS ES6+"></div>
+      <div class="skill-card" data-front="UI/UX" data-back="Figma / Wireframing"></div>
+      <div class="skill-card" data-front="GitHub" data-back="Version Control"></div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section edu-section">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>pursuing <b>Bachelor of Computer Application</b> from Bihar University</h3>
+      <p>course duration 2024 - 2027</p>
+    </div>
+    <div class="edu-card">
+      <h3>High School - Sree Ayyappa Public School Bokaro</h3>
+      <p>Graduated: 2024</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section project-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <!-- Project Card -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <!-- Front side (Image) -->
+        <div class="flip-front">
+          <img src="assest/weather.jpg" alt="Weather App Screenshot" />
+        </div>
+
+        <!-- Back side (Links) -->
+        <div class="flip-back">
+          <h3>Weather App</h3>
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duplicate for more projects -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="" alt="e-commerce website" />
+        </div>
+        <div class="flip-back">
+          <h3>E-Commerce</h3>
+          <a href="#" class="btn">Live Demo</a>
+          <a href="#" class="btn">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+ <footer>
+  <div class="footer-socials hidden">
+    <a href="https://github.com/sa50tyam11" target="_blank" class="social-link github"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/satyamkrjha5011" target="_blank" class="social-link linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="https://discord.gg/3P5xR9j2" target="_blank" class="social-link discord"><i class="fab fa-discord"></i></a>
+    <a href="https://twitter.com/yourusername" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+  <p>© 2025 Satyam Kumar Jha. All rights reserved.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
