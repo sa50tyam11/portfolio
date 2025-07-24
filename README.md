@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio website!
 Built with 💙 HTML, CSS, and JavaScript – this site showcases my work, skills, education, and ways to connect with me.
 
 ## 📌 Live Demo
-🌐 [View Portfolio](https://sa50tyam11.github.io/web-portfolio)
+🌐 [View Portfolio](https://sa50tyam11.github.io/portfolio/)
 
 ---
 
